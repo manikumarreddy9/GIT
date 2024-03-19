@@ -1,4 +1,4 @@
-gcmd coomands :- it inti ,git status
+cmd,s :- it inti ,git status
   
 1.working directory
      add
