@@ -1,0 +1,10 @@
+git inti 
+git status
+  
+working directory
+     add
+staging area 
+     commit 
+local repository
+     push
+remote repository
