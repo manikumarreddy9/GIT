@@ -1,10 +1,9 @@
-git inti 
-git status
+gcmd coomands :- it inti ,git status
   
-working directory
+1.working directory
      add
-staging area 
+2.staging area 
      commit 
-local repository
+3.local repository
      push
-remote repository
+4.remote repository
