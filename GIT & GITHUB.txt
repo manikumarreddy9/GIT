@@ -7,3 +7,102 @@ cmd,s :- it inti ,git status
 3.local repository
      push
 4.remote repository
+
+
+
+
+
+
+vertion controll system(VCS)
+	to devlop any applcation web need this because when ever a issue nothing but error or bug rises , to corrent are mantaine such traff of that applcation we need backword 	vertion ,which can be saved are remotely saved somever, then only we can acess it 
+	ex:- git 
+
+git hub is remote repository hosting server
+	remote repository (remote repository is nothing but a folder of project or folder) 
+
+	ex:-github,azure devops,gitbucket
+
+
+
+
+
+
+remote repository
+	repo is nothing but project folder in server like gitgub,gitlab,bitbucket etc..
+
+
+
+local repository | push /all   git push -u origin here branch name
+
+		
+
+
+
+staging area | commit /all-git commit -m 'here you can add your comments'
+
+	this is add-on like to send multiple or single changes to local area this is 	reqired
+  
+
+
+working area | add /this is single-git add here filename
+
+	this  the area where you all data or ex;vscode is there like files in that path of 	GIT INTI
+
+
+
+										add-commit-push
+
+	to start command :-git inti
+	to check changes :-git status                         only visable of local repository files is changed or not 
+	to create branch :- git checkout -b
+	to jump          :- git checkout branchname
+
+		    	 :-git branch to check
+ 			 :-git feach/pull      is for updated master 
+
+
+
+now push to remote repository like github
+	create new repo and and copy url from and paste it there this is called setingup the orgin/path to remote repository
+ 
+flow this steps:-
+	git remote add origin git@github.com:manikumarreddy9/praticeGIT.git
+	git branch -M main
+	git push -u origin main
+
+
+
+
+
+
+git remote origin
+git remote -v   / to remove origin
+git remote remove origin
+
+
+
+
+
+branches
+	branches are nothing but,there are create to devlop a code from diffrent people and mearge into a single defalut main/master 
+
+
+
+	note: when you create new branches those will be in github and haswell has cmd 
+	we can first push into sub branches and pull the request and then add to our main/master/devlopment-server branch 
+
+
+
+
+
+
+
+
+
+
+git clone "paste link here"
+	make changes in the code and make pull request to the your head
+
+merge confitls
+	git pull
+	git merge origin/master
